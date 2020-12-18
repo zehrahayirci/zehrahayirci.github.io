@@ -1,0 +1,54 @@
+# Site Info
+title:              "ZehraH"
+description:        "Zehrah's Blog"
+author_name:        "Zehra Hayirci" # change this to your name
+logo_url:           http://zehrahayirci.github.io/blog/z.jpg # Get it from GitHub API: https://api.github.com/users/<username>
+
+# Site Settings
+url:                http://zehrahayirci.github.io # main url
+baseurl:            /blog
+permalink:          /:title # Post permalink
+timezone:           Asia/Tokyo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+
+remote_theme: heiswayi/the-plain
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  instagram: https://www.instagram.com/tokyoda100gun/
+  twitter: zezesbookmarks
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
