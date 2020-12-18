@@ -2,10 +2,10 @@
 title:              "ZehraHayirci"
 description:        "Zehrah's Blog"
 author_name:        "Zehra Hayirci" # change this to your name
-logo_url:           https://github.com/zehrahayirci/zehrahayirci.github.io/blob/master/z.jpg # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           https://github.com/zehrahayirci/zehrahayirci.github.io/z.jpg # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
-url:                http://zehrahayirci.github.io # main url
+url:                http://blog.zehrah.net/ # main url
 baseurl:            /
 permalink:          /:title # Post permalink
 timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
