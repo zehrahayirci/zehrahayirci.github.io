@@ -2,7 +2,7 @@
 title:              "ZehraHayirci"
 description:        "Zehrah's Blog"
 author_name:        "Zehra Hayirci" # change this to your name
-logo_url:           blog.zehrah.net/zehra_s.jpg # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           blog.zehrah.net/z.jpg # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
 url:                http://blog.zehrah.net # main url
