@@ -63,6 +63,9 @@ The most common words in Magna Carta:
 Some of the one time appeared words are:
 >'unanimous', 'actual', 'ath', 'numerous', 'dr', 'administration', 'excused', 'additions', 'investigated', 'direct', 'determine', 'tithing', 'corrupt', 'modification', 'wide', 'necessarily', 'kydells', 'transcription', 'exists', 'illegal'
 
+Boring? Yeah, I know..
+I created a table for all these books: 
+
 ![Table](http://blog.zehrah.net/post_images/tablebooks.png)
 
 
@@ -71,4 +74,5 @@ Well, it is still hard to make any inference, but it is certain that the distrib
 Loteria was also wrong about the least used words. Low variance and high variance of the least used words should not be trusted when analyzing the books. 
 In summary, the authors should not feel threatened by Loteria’s thesis. Their word frequency does not reveal their secrets nor reduce their content. 
 
+I have this [repo](https://github.com/zehrahayirci/IfOnAWintersNightATraveler) for those want to try things themselves
 
