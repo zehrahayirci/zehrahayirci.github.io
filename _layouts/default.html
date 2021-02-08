@@ -1,26 +1,31 @@
----
-layout: compress
-published: true
----
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-	<head>
-		{% include head.html %}
-		{% include analytics.html %}
-	</head>
+  <head>
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
+  </head>
 
-	<body>
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-		{% include header.html %}
+    <!-- Header -->
 
-		<div id="content">
-			{{ content }}
-		</div>
+    {% include header.html %}
 
-		{% include footer.html %}
+    <!-- Content -->
 
-	</body>
+    <div class="container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
 
 </html>

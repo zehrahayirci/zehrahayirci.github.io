@@ -1,6 +1,8 @@
 ---
+layout: post
 title: 5 Questions 5 Answers
-updated: 2019-09-22 12:32
+date: 2019-09-22 12:32
+description: FAQ on AI
 ---
 
 I want to wrap up some questions about AI, future of intelligence and machine learning and try to find answers. 

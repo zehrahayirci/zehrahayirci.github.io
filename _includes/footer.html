@@ -1,4 +1,27 @@
-<div class="footer">
-  <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
-  <span class="block"><small>&lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/the-plain">The Plain theme</a>.</small></span>
-</div>
+{% if site.footer_fixed %}
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    {{ site.footer_text }}
+    {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
+</footer>
+{% else %}
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    {{ site.footer_text }}
+    {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
+</footer>
+{% endif %}
