@@ -3,7 +3,7 @@ layout: page
 title: If On A Winter's Night 
 date: 2021-01-03 15:25
 description : Loteria argues that most frequent and the least frequent words in a book may reveal style and content of the book. This project dedicateed for her questions with word embeddings.
-img: http://blog.zehrah.net/post_images/magna.png
+img: assets/img/magna.png
 importance: 1 
 ---
 
@@ -44,8 +44,13 @@ Let’s start with a classic novel, Jane Austen’s “Pride and Prejudice”. T
 
 >ELIZABETH: 635 DARCY: 417 BENNET: 323 BINGLEY: 306 JANE: 292 MISS: 283 THOUGH: 226 SISTER: 217 SOON: 216 MAY: 205 MIGHT: 200 WICKHAM: 194 LADY: 191 OWN: 182 COLLINS: 180 AGAIN: 177 LYDIA: 171 SHALL: 163 DEAR: 158 FAMILY: 15
 
-![PrideWordcloud](http://blog.zehrah.net/post_images/PrideWords.png)
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PrideWords.png' | relative_url }}">
+    </div>
+</div>
+<br>
 By looking and these, I can only assume that this book is about some thoughtful ladys. Following Ludmilla’s idea, these are some words that only appear once in the book:
 
 >'criticise', 'cheap', 'pope', 'wasting', 'originate', 'arch', 'clerk', 'inspire', 'simpered', 'slept', 'bass', 'naming', 'falsely', 'speed', 'rendering', 'celerity', 'arrear', 'sheets', 'network'...
@@ -66,12 +71,12 @@ The most common words in Magna Carta:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="http://blog.zehrah.net/post_images/magna.png">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/magna.png' | relative_url }}">
     </div>
 </div>
 
 
-
+<br>
 Some of the one time appeared words are:
 >'unanimous', 'actual', 'ath', 'numerous', 'dr', 'administration', 'excused', 'additions', 'investigated', 'direct', 'determine', 'tithing', 'corrupt', 'modification', 'wide', 'necessarily', 'kydells', 'transcription', 'exists', 'illegal'
 
@@ -80,12 +85,12 @@ I created a table for all these books:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="http://blog.zehrah.net/post_images/tablebooks.png">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/tablebooks.png' | relative_url }}">
     </div>
 </div>
 
 
-
+<br>
 
 
 Well, it is still hard to make any inference, but it is certain that the distribution of the most common words may give us an idea about the content of the text. However, they do not reveal anything about the style. Maybe, we can say that most of the good novels have relevant words together rather than creating a word soup. 
