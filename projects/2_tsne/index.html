@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Zehra  Hayirci | ZehraHayirci</title>
+<title>Zehra  Hayirci | instagram TSNE</title>
 <meta name="description" content="Zehrah's Blog
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/2_tsne/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -104,7 +104,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -164,66 +164,61 @@
 
     <div class="container mt-5">
       <div class="post">
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/coding/">6 Months Into Coding Challenges</a></h3>
-        <p class="post-meta">June 4, 2021</p>
-        <p>My 6-month adventrue of competitive programming and daily Leetcode</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/munich/">Munich Sakura Map</a></h3>
-        <p class="post-meta">April 4, 2021</p>
-        <p>List of all the beautiful trees that I came accross while strolling in Munich</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/essay/">Essay</a></h3>
-        <p class="post-meta">December 30, 2020</p>
-        <p>(Turkish) My first Turkish blog post</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/may/">Thesis in the Time of Corona</a></h3>
-        <p class="post-meta">May 26, 2020</p>
-        <p>How to keep alive when you are writing your thesis</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/september/">5 Questions 5 Answers</a></h3>
-        <p class="post-meta">September 22, 2019</p>
-        <p>FAQ on AI</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/august/">Kubrick, Play-Doh, and Artificial General Intelligence</a></h3>
-        <p class="post-meta">August 19, 2019</p>
-        <p>If Kubrick made a movie about AI conquering world of Play-Doh's....</p>
-      </li>
-    
-  </ul>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="ZehraHayirci">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="ZehraHayirci - page 2">2</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+  <header class="post-header">
+    <h1 class="post-title">instagram TSNE</h1>
+    <p class="post-description">TSNE visualization of instagram posts</p>
+  </header>
+
+  <article>
+    <p><a href="https://lvdmaaten.github.io/tsne/">t-SNE</a> is a popular dimension reduction algorithm. Why not try to use it on instagram posts!</p>
+
+<p>This notebook best work in Google Colab, and don’t forget to enable GPU from Edit -&gt; Notebook Settings -&gt; Hardware</p>
+
+<p>I use <a href="https://blog.sourced.tech/post/lapjv/">Jonker-Volgenant algorithm</a> to create a nice grid for instagram!</p>
+
+<p><a href="https://www.instagram.com/days.of.zehra/">My instagram</a> with Histogram t-SNE</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/insta_histogram2.png" />
+    </div>
+</div>
+<p><br /></p>
+
+<p>1500 images of cats, dogs and bears using their histogram</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/histogram_tsne_32.png" />
+    </div>
+</div>
+<p><br /></p>
+
+<p>Using their pretrained ImageNet features</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/tsne_features2.png" /> 
+    </div>
+</div>
+<p><br />
+Using both histogram and pretrained fetures</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/tsne_all2.png" /> 
+    </div>
+</div>
+<p><br />
+All the codes in this <a href="https://github.com/zehrahayirci/instagram_t-SNE">repo</a></p>
+
+<p>Read the <a href="http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf">t-SNE pape</a>, watch Van der Maaten’s <a href="https://www.youtube.com/watch?v=RJVL80Gg3lA">Google Talk</a> or check the examples on <a href="https://lvdmaaten.github.io/tsne/">his blog</a></p>
+
+<p>Inspired from Prabodh Tripathi’s <a href="https://thebittheories.com/t-sne-visualization-of-instagram-posts-d5915ae99e63">blog post</a></p>
 
 
+  </article>
 
 </div>
 
